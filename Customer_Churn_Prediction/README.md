@@ -1,4 +1,4 @@
-##Customer Churn Prediction / Предсказание оттока клиентов
+## Customer Churn Prediction / Предсказание оттока клиентов
 
 ML: sklearn, pandas, numpy API: flask
 
@@ -15,7 +15,7 @@ The data set includes information about:
 - Customer account information – how long they’ve been a customer, contract, payment method, paperless billing, monthly charges, and total charges
 - Demographic info about customers – gender, age range, and if they have partners and dependents
 
-####The goal
+#### The goal
 is to create an app which would predict whether the customer is likely to leave
 The data processing is done only in a pipeline. Missing or incorrect data is
 filled with median (for quantitative traits) / mode (for categorical traits)
@@ -31,13 +31,15 @@ filled with median (for quantitative traits) / mode (for categorical traits)
 
 Use the Docker command line
 
-$ git clone https://github.com/YanaAbakumova/Projects/Customer_Churn_Prediction
+$ git clone https://github.com/YanaAbakumova/Projects/tree/main/Customer_Churn_Prediction
+
 $ cd Customer_Churn_Prediction
-$ docker build -t Customer_Churn_Prediction .
+
+$ docker build -t churn_prediction .
 
 
 Run docker
 
-$ docker run -d -p 8080:8080 Customer_Churn_Prediction
+$ docker run -d -p 8080:8080 churn_prediction
 
 Go to http://localhost:8080 or http://127.0.0.1:8080/
