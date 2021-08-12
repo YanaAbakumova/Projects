@@ -15,9 +15,8 @@ The data set includes information about:
 - Customer account information – how long they’ve been a customer, contract, payment method, paperless billing, monthly charges, and total charges
 - Demographic info about customers – gender, age range, and if they have partners and dependents
 
-#### The goal
-is to create an app which would predict whether the customer is likely to leave
-The data processing is done only in a pipeline. Missing or incorrect data is
+#### The goal:
+Create an app which would predict whether the customer is likely to leave. The data processing is done only in a pipeline. Missing or incorrect data is
 filled with median (for quantitative traits) / mode (for categorical traits)
 
 #### Задача:
