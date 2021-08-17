@@ -10,3 +10,4 @@ This repository contains some of my educational projects while learning data sci
 (Random Forest Classifier and Gradient Boosting Regressor)
 - [Customer Churn](https://github.com/YanaAbakumova/Projects/tree/main/Customer_Churn_Prediction) Project (Classification) with flask and Docker
 - [Recommender Systems](https://github.com/YanaAbakumova/Projects/tree/main/Recommender%20Systems%20Project) project with implicit
+- [A case from Megafon:](https://github.com/YanaAbakumova/Projects/tree/main/Megafon_project) to calculate probability that a client will subscribe to a service
